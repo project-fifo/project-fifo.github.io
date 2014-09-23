@@ -558,12 +558,12 @@
 
 	#header {
 text-align: center;
-padding: 2em 0 0 0;
+padding: 4em 0 0 0;
 background-color: #fff;
-background-image: url("../images/fifo-logo.svg");
-background-position: 6px 20px;
-background-size: 170px;
+background-image: url(../images/fallback.png);
+background-image: url("../images/fifo-logo-b.svg");
 background-repeat: no-repeat;
+    background-position: 50% 30px;
 }
 
 		#header h1 {
@@ -576,6 +576,7 @@ background-repeat: no-repeat;
 				letter-spacing: -0.025em;
 				border: 0;
 			}
+
 
 	#nav {
 		cursor: default;
