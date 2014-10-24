@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/licenser
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://project-fifo.net
+  * I am licenser (https://keybase.io/licenser) on keybase.
+  * I have a public key with fingerprint 71C9 D779 4FCE AC9D 77AC  4F6F E21B B9BD 3F38 481E
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "71c9d7794fceac9d77ac4f6fe21bb9bd3f38481e",
+            "host": "keybase.io",
+            "key_id": "E21BB9BD3F38481E",
+            "uid": "959be84043fb6c4bf1f626f583906d00",
+            "username": "licenser"
+        },
+        "merkle_root": {
+            "ctime": 1414191863,
+            "hash": "188e9de462b796ffc222dd270742cbaa9d379359006c1ecb4583047bb6fa2b00b17d5051d4356d14707be9213318208f8541670801dedb34c572cfba5ca3a0b8",
+            "seqno": 84484
+        },
+        "service": {
+            "hostname": "project-fifo.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1414191898,
+    "expire_in": 157680000,
+    "prev": "4a138a8136d7c4115ba98056df851244ca80481829bd168e7f5e305be87fee95",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+
+owFdUntQFVUYvyih3MiADBAhnYVsTLju2edZikTsisPLzAcwUrc9u2cvi5e7t72X
+K4jUOKmTNoIZIhMlVCSiI8bIUMY4QhM65mT4GjPEGVMmfDLVjAwp2VmGpsc5/5zv
+fL/v932/8zs7n5hqs4fc+KW4ZnF/6M8hp28i26rsgfgqChlqJZVWRSkeHXsD1skr
+l2EqjVqHK5Hsxw7dmOs1VOwo9c+dxKRQQWz6dcNLULRDdDBUdYoFt4o13evGps/U
+LS5KBIqkiqLEaQqWJ46ywmmChhmAkIRUVmMhBwEmlCWGP/CfrtQEp0tXya2TAZmZ
+UubL7NIJvJPkyicSEi8hDDmaYzUkKBzSgCYwgsZDVqIFlaYtoB+bk5I8uoK9JLTm
+LcPmOg92mYYxIVoJ6BYEcGRLAAosmUj2l5AiACGWVMwJDBIlQdMUhmFUlRFpkWMU
+JMuSyooSy0s0LSgAK4gjzWlOREjQZAbRNAKiytM8UDmWF1TAkUKEJQawLIAMDTXI
+c0AQaUgDFauI5RReZBQNybwiszKNIJHgx296DSoNchzkqq3QDBIl1tjWq02K85lG
+KVYCqZquGQ4vtmwiVwFDMTwkWxII+PxplvBApc+Cd6zHyDXJ5EK6VyXG/dtZQKD/
+exQJplC4wqeb2KVbCF4UIE2W1QgHCScnAxbKELCCKiocADySJUgT1UQkYDhOkSFN
+7IMMsR4IEIsaj1maJw6KGsYS/49UicwpuwmlX3d75UC5ianqbVMSQm0hdlvYY1Os
+r2uzh0f+/Z83OJ58pLrd3aevF5+6mJO2fWzNCreP3XbgVHf/s4Od5bFzGKFUrrj/
+dPbShMqD0c75odfe+jb1ZujjNZeqGoNDCfv7qJa8fudYTOSr9sTi9KLXv1wBC4+e
+b82gOvLSRx56o2efqtL2leLlvxvregY9afcS7a29ezrqz371DBiPLRkNX5Qzsunu
+OzVRndP0MLo5Misj0BT13t7glaGIy467oweOLvxk/Yx5bTGodlUtk44/Dc7uunPB
+Hk5HHmHXmjmrb1W4wvqaG8rrG9HW7uxDdQc+imu4kXt201zhcn+d+XzSi9dO7M6Y
+2jCst+/ec6f6cK+n/nbykeLkhyOFtpaT9e97Vm5evjc/onA0Iqmr4UL8x7NeKx9O
+5jLEyJ4/8o+3d+SNxm4OeXeac2dW9r6tPZkXhea6nD/v7d3BtM85ntUIKg6fjLoa
+9UbSpfzVLQ++Kfsid+TtsrYkffntB/N3/zi9bBqHaoeuJue+FIg5+FtcVMya+NTp
+r/C+zgU/Nd1dfMg/YHe2zYwb3A60oo4tL/Qu61oQr9QN1TXmjJ1Y0pQ/K7HiXPSj
+p5Yk7Lp1PuLS0IwS3+yvd6RXVm+4v/LKzvGimd/bem/XOz/7NeP6uf2tBYMfLsw9
+NrYxY+Oe7+I+GKhbkl0Q7LMP/CAW7PrcbGQl2Dy+dhk8k5WnQ1zpiO1KaNoCF+Wu
+jC/tnHfmuapjw38B
+=Gcne
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/licenser
+
+==================================================================
