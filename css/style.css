@@ -137,6 +137,28 @@
 			font-size: 1.5em;
 			letter-spacing: -0.025em;
 		}
+	
+	/* Release Version banner */
+	div#ribbon {
+		position: absolute;
+		left: 4%;
+		top: 1%;
+		border: 1px solid #888;
+		border-radius: 5px;
+		padding: 5px 10px;
+	}	
+
+	#ribbon b {
+		letter-spacing: 1px;
+		color: #2F8178;
+	}
+
+	#ribbon span {
+		letter-spacing: 1px;
+		color: #2F8178;
+		font-size: 0.8em;
+		font-weight: 300;
+	}
 
 	footer {
 		margin: 0 0 3em 0;
