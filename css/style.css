@@ -733,7 +733,16 @@ input[type="button"].small,
 
 /* Banner */
 
-#banner {
+#banner.ztc  {
+    background-image: url("../images/server.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 28em;
+    text-align: center;
+    position: relative;
+}
+
+#banner.main {
     background-image: url("../images/cloud-banner-2.jpg");
     background-position: center center;
     background-size: cover;
