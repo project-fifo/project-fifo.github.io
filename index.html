@@ -1,219 +1,115 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Project FiFo Cloud Orchestration</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.dropotron.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/skel-layers.min.js"></script>
-    <script src="js/init.js"></script>
-    <noscript>
-      <link rel="stylesheet" href="css/skel.css" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/style-wide.css" />
-    </noscript>
-    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-  </head>
-  <body>
+---
+layout: default
+---
 
-    <!-- Header -->
-    <div id="header">
-      <!-- Release Version stamp -->
-      <div id="ribbon"><span>Release </span><b>0.8.0</b> Happy Hound</div>
-      <!-- Logo -->
-      <h1><a href="https://project-fifo.net/" id="logo"> Project FiFo</a></h1>
+<!-- Banner -->
+<section id="banner" class="main">
+  <header>
+    <h2>FiFo: <em>Open Source SmartOS Cloud <a href="https://en.wikipedia.org/wiki/Orchestration_(computing)">Orchestration</a></em></h2>
+    <!--a href="#giant" class="button">Learn More</a-->
+  </header>
+</section>
 
-      <!-- Nav -->
-      <nav id="nav">
-        <ul>
-          <li><a href="https://docs.project-fifo.net">Documentation</a></li>
-          <li><a href="https://blog.project-fifo.net">Blog</a></li>
-          <li><a href="https://github.com/project-fifo">Source Code</a></li>
-          <li><a href="https://project-fifo.atlassian.net">Issue Tracker</a></li>
-          <li><a href="#support">Commercial Support</a></li>
-          <li><a href="coc.html">Code of Conduct</a></li>
-        </ul>
-      </nav>
+<!-- Highlights -->
+<section class="wrapper style1">
+  <div class="container">
+    <div class="row double">
+      <section class="4u">
+        <div class="box highlight">
+          <i class="icon major fa-space-shuttle"></i>
+          <h3>Built for Speed</h3>
+          <p>Blazingly fast - used in mission critical enterprise business environments where high speed and utmost reliability is absolutely essential.</p>
+        </div>
+      </section>
+      <section class="4u">
+        <div class="box highlight">
+          <i class="icon major fa-shield"></i>
+          <h3>Production Ready</h3>
+          <p>Tested and Proven in production clouds - where failure is simply not an option. Trusted by serious cloud providers to get the job done.</p>
+        </div>
+      </section>
+      <section class="4u">
+        <div class="box highlight">
+          <i class="icon major fa-sitemap"></i>
+          <h3>Extreme Resilience</h3>
+          <p>Built using Erlang - designed from the ground up to recover from failure and run effectively in a fault tolerant distributed cluster.</p>
+        </div>
+      </section>
     </div>
-
-    <!-- Banner -->
-    <section id="banner" class="main">
-      <header>
-        <h2>FiFo: <em>Open Source SmartOS Cloud <a href="https://en.wikipedia.org/wiki/Orchestration_(computing)">Orchestration</a></em></h2>
-        <!--a href="#giant" class="button">Learn More</a-->
-      </header>
-    </section>
-
-    <!-- Highlights -->
-    <section class="wrapper style1">
-      <div class="container">
-        <div class="row double">
-          <section class="4u">
-            <div class="box highlight">
-              <i class="icon major fa-space-shuttle"></i>
-              <h3>Built for Speed</h3>
-              <p>Blazingly fast - used in mission critical enterprise business environments where high speed and utmost reliability is absolutely essential.</p>
-            </div>
-          </section>
-          <section class="4u">
-            <div class="box highlight">
-              <i class="icon major fa-shield"></i>
-              <h3>Production Ready</h3>
-              <p>Tested and Proven in production clouds - where failure is simply not an option. Trusted by serious cloud providers to get the job done.</p>
-            </div>
-          </section>
-          <section class="4u">
-            <div class="box highlight">
-              <i class="icon major fa-sitemap"></i>
-              <h3>Extreme Resilience</h3>
-              <p>Built using Erlang - designed from the ground up to recover from failure and run effectively in a fault tolerant distributed cluster.</p>
-            </div>
-          </section>
-        </div>
-      </div>
-    </section>
-
-    <!-- Posts -->
-    <section class="wrapper style1">
-      <div class="container">
-        <div class="row">
-          <section class="6u">
-            <div class="box post">
-              <a href="#" class="image left"><img src="images/standard.png" alt="" /></a>
-              <div class="inner">
-                <h3>No Dedicated Hardware </h3>
-                <p>FiFo installs on <b>regular</b> SmartOS zones, running on standard compute nodes. There is no dedicated hardware or server roles needed.</p>
-              </div>
-            </div>
-          </section>
-          <section class="6u">
-            <div class="box post">
-              <a href="https://api.project-fifo.net" class="image left"><img src="images/api.png" alt="" /></a>
-              <div class="inner">
-                <h3>Full Featured API</h3>
-                <p>Every single operation, configuration and change is 100% securely supported by the comprehensive FiFo REST based API.</p>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div class="row">
-          <section class="6u">
-            <div class="box post">
-              <a href="http://leo-project.net/leofs/" class="image left"><img src="images/storage.png" alt="" /></a>
-              <div class="inner">
-                <h3>Distributed Data Storage</h3>
-                <p>FiFo uses a distributed S3-API compliant large object data store. VM's can be <b>effortlessly</b> backed up, stored and re-deployed on any compute node.</p>
-              </div>
-            </div>
-          </section>
-          <section class="6u">
-            <div class="box post">
-              <a href="#" class="image left"><img src="images/rbac.png" alt="" /></a>
-              <div class="inner">
-                <h3>Multi Data Center Ready</h3>
-                <p>Supports Multi Data Center deployments. The built in powerful AAA service allows fine grained control of customer and end user permissions.</p>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </section>
-
-    <section id="support" class="wrapper style4">
-      <div class="container">
-        <div class="row">
-          <h2>Support</h2>
-        </div>
-        <div class="row">
-          <div class="box post">
-            <p>Project FiFo provides commercial <strong>support</strong> services for companies looking to deploy FiFo managed clouds in production.</p>
-            <p>This is particularly important for folks who want the <strong>peace of mind</strong> that teaming with a <strong>reliable partner</strong> brings. They want someone looking out for their business, ensuring that help is always available whenever they need it.</p>
-            <p>Our <strong>Service Level Agreements</strong> are purposefully structured in a way that fosters long term <strong>mutually beneficial</strong> relationships. They are designed to make sure that your cloud is built right, from day one - and will scale with you as you grow.</p>
-            <p>The best part is that there is <strong>no barrier to entry</strong>. We work hard to accommodate all different types of customers no matter what size you are, and focus on growing your business together.</p>
-            <p>
-              <a  class="button" href="https://blog.project-fifo.net/contact/">Contact Us</a>
-            </p>
-
+  </div>
+</section>
+<!-- Posts -->
+<section class="wrapper style1">
+  <div class="container">
+    <div class="row">
+      <section class="6u">
+        <div class="box post">
+          <a href="#" class="image left"><img src="images/standard.png" alt="" /></a>
+          <div class="inner">
+            <h3>No Dedicated Hardware </h3>
+            <p>FiFo installs on <b>regular</b> SmartOS zones, running on standard compute nodes. There is no dedicated hardware or server roles needed.</p>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section id="cta" class="wrapper style3">
-      <div class="container">
-        <header>
-          <h2>Get started today with a Cloud you can trust </h2>
-          <a href="https://docs.project-fifo.net/en/stable/general/installation.html" class="button">Lets Go</a>
-        </header>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <div id="footer">
-      <div class="container">
-        <div class="row ">
-          <div class="8u">
-            <div class="row collapse-at-2">
-              <section class="4u">
-                <h3>Support</h3>
-                <ul class="links">
-                  <li><a href="https://groups.google.com/forum/?fromgroups#!forum/project-fifo">Mailing list</a></li>
-                  <li><a href="http://webchat.freenode.net/?channels=project-FiFo&uio=d4">IRC #project-fifo</a></li>
-                  <li><a href="https://jira.project-fifo.net/">Bug tracker</a></li>
-                  <li><a href="https://twitter.com/project_fifo">Twitter</a></li>
-                </ul>
-              </section>
-              <section class="4u">
-                <h3>Acknowledgments</h3>
-                <ul class="links">
-                  <li><a href="http://smartos.org/">Joyent SmartOS</a></li>
-                  <li><a href="https://github.com/basho/riak_core">Basho Riak Core</a></li>
-                  <li><a href="http://www.erlang.org/">Erlang</a></li>
-                  <li><a href="http://leo-project.net/leofs/">LeoFS</a></li>
-                </ul>
-              </section>
-              <section class="4u">
-                <h3>Disclaimer</h3>
-                <ul class="links">
-                  <li><a href="disclaimer.html">Disclaimer</a></li>
-                </ul>
-              </section>
-            </div>
+      </section>
+      <section class="6u">
+        <div class="box post">
+          <a href="https://api.project-fifo.net" class="image left"><img src="images/api.png" alt="" /></a>
+          <div class="inner">
+            <h3>Full Featured API</h3>
+            <p>Every single operation, configuration and change is 100% securely supported by the comprehensive FiFo REST based API.</p>
           </div>
         </div>
-      </div>
-
-      <!-- Icons -->
-      <ul class="icons">
-        <li><a href="https://twitter.com/project_fifo" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="https://github.com/project-fifo" class="icon fa-github"><span class="label">GitHub</span></a></li>
-        <li><a href="https://plus.google.com/+ProjectfifoNetHome/posts" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-      </ul>
-
-      <!-- Copyright -->
-      <div class="copyright">
-        <ul class="menu">
-          <li>&copy; Project FiFo UG (haftungsbeschr&auml;nkt) 2015</li><a href="http://opensource.org/licenses/CDDL-1.0"> CDDL</a>
-        </ul>
-      </div>
-
+      </section>
     </div>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <div class="row">
+      <section class="6u">
+        <div class="box post">
+          <a href="http://leo-project.net/leofs/" class="image left"><img src="images/storage.png" alt="" /></a>
+          <div class="inner">
+            <h3>Distributed Data Storage</h3>
+            <p>FiFo uses a distributed S3-API compliant large object data store. VM's can be <b>effortlessly</b> backed up, stored and re-deployed on any compute node.</p>
+          </div>
+        </div>
+      </section>
+      <section class="6u">
+        <div class="box post">
+          <a href="#" class="image left"><img src="images/rbac.png" alt="" /></a>
+          <div class="inner">
+            <h3>Multi Data Center Ready</h3>
+            <p>Supports Multi Data Center deployments. The built in powerful AAA service allows fine grained control of customer and end user permissions.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
 
-      ga('create', 'UA-31493971-1', 'auto');
-      ga('send', 'pageview');
+<section id="support" class="wrapper style4">
+  <div class="container">
+    <div class="row">
+      <h2>Support</h2>
+    </div>
+    <div class="row">
+      <div class="box post">
+        <p>Project FiFo provides commercial <strong>support</strong> services for companies looking to deploy FiFo managed clouds in production.</p>
+        <p>This is particularly important for folks who want the <strong>peace of mind</strong> that teaming with a <strong>reliable partner</strong> brings. They want someone looking out for their business, ensuring that help is always available whenever they need it.</p>
+        <p>Our <strong>Service Level Agreements</strong> are purposefully structured in a way that fosters long term <strong>mutually beneficial</strong> relationships. They are designed to make sure that your cloud is built right, from day one - and will scale with you as you grow.</p>
+        <p>The best part is that there is <strong>no barrier to entry</strong>. We work hard to accommodate all different types of customers no matter what size you are, and focus on growing your business together.</p>
+        <p>
+          <a  class="button" href="https://blog.project-fifo.net/contact/">Contact Us</a>
+        </p>
 
-    </script>
-  </body>
-</html>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta" class="wrapper style3">
+  <div class="container">
+    <header>
+      <h2>Get started today with a Cloud you can trust </h2>
+      <a href="https://docs.project-fifo.net/en/stable/general/installation.html" class="button">Lets Go</a>
+    </header>
+  </div>
+</section>
