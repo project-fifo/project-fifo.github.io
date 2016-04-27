@@ -7,8 +7,8 @@
 
 # Site settings
 title: Project FiFo Cloud Orchestration
-version: 0.8.0
-version_name: Happy Hound
+version: 0.8.1
+version_name: Cautious Collie
 email: sales@project-fifo.net
 description: > # this means to ignore newlines until "baseurl:"
   Project FiFo cloud orchestration
