@@ -734,9 +734,12 @@ input[type="button"].small,
 /* Banner */
 
 #banner.ztc  {
-    background-image: url("../images/server.jpg");
+    /*
+    background-image: url("../images/ztc.png");
     background-position: center center;
-    background-size: cover;
+    background-repeat: none;
+    //background-size: cover;
+   */
     height: 28em;
     text-align: center;
     position: relative;
