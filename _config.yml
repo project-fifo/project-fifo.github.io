@@ -14,8 +14,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Project FiFo cloud orchestration
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://project-fifo.net" # the base hostname & protocol for your site
-twitter_username: prject_fifo
-github_username:  prject_fifo
+twitter_username: project_fifo
+github_username:  project_fifo
 
 # Build settings
 markdown: kramdown
