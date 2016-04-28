@@ -817,6 +817,11 @@ input[type="button"].small,
     color: white;
 }
 
+.wrapper.style4 {
+    background-color: #f9f9f9;
+
+}
+
 .wrapper.style3 .button {
     background: white;
     color: #474747;
