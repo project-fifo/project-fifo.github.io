@@ -831,6 +831,19 @@ input[type="button"].small,
     color: #37c0fb !important;
 }
 
+/* fztc */
+
+h3.fztch3 {
+    letter-spacing: 0.025em;
+    font-size: 1.2em;
+    color: #ffef9e;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+
+.ztc p {
+    text-align: justify;
+}
+
 /* Support */
 
 #support h2 {
