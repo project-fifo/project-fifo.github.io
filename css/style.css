@@ -73,6 +73,11 @@ h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
     font-weight: 300;
 }
 
+h1 {
+    font-size: 1.85em;
+    letter-spacing: -0.025em;
+}
+
 h2 {
     font-size: 1.75em;
     letter-spacing: -0.025em;
@@ -99,6 +104,11 @@ hr {
     border-top: solid 1px #e0e0e0;
     border: 0;
     margin-bottom: 1.5em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1em;
 }
 
 blockquote {
