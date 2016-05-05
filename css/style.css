@@ -845,9 +845,10 @@ input[type="button"].small,
 
 h3.fztch3 {
     letter-spacing: 0.025em;
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #69b3e3;
-    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    font-weight: normal;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.25);
 }
 
 .ztc p {
