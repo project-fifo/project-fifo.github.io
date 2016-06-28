@@ -15,7 +15,7 @@ This document provides community guidelines for a safe, respectful, productive, 
 * Participants must ensure that their language and actions are free of personal attacks and disparaging personal remarks.
 * When interpreting the words and actions of others, participants should always assume good intentions.
 * Participants who disrupt the collaborative space, or participate in a pattern of behaviour which could considered harassment will not be tolerated.
-* Violations of the CoC should only be reported to the maintainers via direct messages on IRC, twitter or via e-mail and will be handled confidentially. Neiter reporters nor reported persons will, or should be, be made public.
+* Violations of the CoC should only be reported to the maintainers via direct messages on IRC, twitter or via e-mail and will be handled confidentially. Neiter reporters nor reported persons will, or should be, made public.
 
 
 (adopted from the [Postgres CoC WIP v7](http://www.postgresql.org/message-id/5699131D.2040805@commandprompt.com))
