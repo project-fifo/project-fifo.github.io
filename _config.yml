@@ -7,7 +7,7 @@
 
 # Site settings
 title: Project FiFo Cloud Orchestration
-version: 0.8.1
+version: 0.8.2
 version_name: Cautious Collie
 email: sales@project-fifo.net
 description: > # this means to ignore newlines until "baseurl:"
